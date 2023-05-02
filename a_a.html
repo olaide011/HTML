@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html form</title>
+</head>
+<body>
+    <form action="/form-handling-url" method="post">
+        <fieldset>
+            <legend>Register Here!</legend>
+
+            <div>
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstn" name="firstname">
+            </div>
+
+            <div>
+                <label for="lastname"> Last Name</label>
+                <input type="text" id="lastn" name="lastname">
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <label for="phonenumber">Phone Number</label>
+                <input type="number" id="phonenum" name="phonenumber">
+            </div>
+            <div>
+                <label for="role">Role</label>
+                <select name="role" id="roletitle">
+                    <option value="softwareEng">Software Developer</option>
+                    <option value="dataanalys">Data Analys</option>
+                    <option value="projectdesign">Project Designer</option>
+                </select>
+            </div>
+            <div>
+                <label for="date"> Date</label>
+                <input type="date" name="date" id="date">
+            </div>
+
+            <div>
+                <label for="bio">Bio</label>
+                <textarea name="bio" id="" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
